@@ -23,7 +23,7 @@ objects:
       service.alpha.openshift.io/dependencies: '[{"name":"${DATABASE_SERVICE_NAME}","namespace":"","kind":"Service"},{"name":"${MEMCACHED_SERVICE_NAME}","namespace":"","kind":"Service"}]'
     name: ${NAME}
   spec:
-    clusterIP: None
+#    clusterIP: None
     ports:
     - name: http
       port: 80
